@@ -27,5 +27,9 @@ module.exports = {
       "never"
     ],
     "camelcase": 0,
+    "max-len": [
+      "error",
+      { "code": 120, "ignoreComments": true, "ignoreTrailingComments": true }
+    ],
   }
 };
